@@ -7,4 +7,5 @@ export default defineNuxtConfig({
     'nuxt-icon',
     'nuxt-security',
   ],
+  css: ['assets/styles/main.css'],
 })

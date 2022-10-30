@@ -1,5 +1,6 @@
 <template>
-  <div>
-    <h1>Switch Software Solution</h1>
-  </div>
+  <NuxtLayout>
+    <NuxtLoadingIndicator />
+    <NuxtPage />
+  </NuxtLayout>
 </template>

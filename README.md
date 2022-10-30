@@ -1,6 +1,12 @@
-# Nuxt 3 Minimal Starter
+# Switch Software Solutions Clone
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+Built using:
+- Nuxt3
+- Vue3
+- Tailwind CSS
+- Nuxt Image
+- Nuxt icon
+- Typescript
 
 ## Setup
 

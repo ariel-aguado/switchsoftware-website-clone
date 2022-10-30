@@ -1,5 +1,5 @@
 <template>
   <div>
-    <h1>Switch Software Solutions</h1>
+    <h1 class="text-5xl">Switch Software Solutions</h1>
   </div>
 </template>

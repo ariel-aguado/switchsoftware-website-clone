@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
     '@nuxtjs/tailwindcss',
     'nuxt-icon',
-    'nuxt-security',
+    // 'nuxt-security',
   ],
   css: ['assets/styles/main.css'],
 })

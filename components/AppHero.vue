@@ -1,3 +1,8 @@
+<script lang="ts" setup>
+const isDev = process.env.NODE_ENV === 'development'
+const videoUrl = isDev ? '/sw-hero-video.m4v' : 'https://res.cloudinary.com/dkdfpm2og/video/upload/v1667253619/switch-assets/sw-hero-video_rje65h.mp4'
+</script>
+
 <template>
   <section class="w-full min-h-screen grid grid-cols-1 grid-rows-[min-content_1fr_min-content]">
     <AppHeader class="col-start-1 col-end-2 row-start-1 row-end-2 z-10">
@@ -13,7 +18,7 @@
     </AppHeader>
     <div class="col-start-1 col-end-2 row-start-1 row-end-4 bg-gray-800 flex justify-center items-center">
       <video
-        src="https://res.cloudinary.com/dkdfpm2og/video/upload/v1667253619/switch-assets/sw-hero-video_rje65h.mp4"
+        :src="videoUrl"
         muted
         loop
         autoplay
@@ -53,6 +58,7 @@
     <NuxtImg
       src="/stoke-about.svg"
       class="w-full col-start-1 col-end-2 row-start-3 row-end-4 z-10 mb-[-5px]"
+      alt="Stoke about"
     />
   </section>
 </template>

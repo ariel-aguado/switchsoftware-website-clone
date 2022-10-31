@@ -13,7 +13,7 @@
     </AppHeader>
     <div class="col-start-1 col-end-2 row-start-1 row-end-4 bg-gray-800 flex justify-center items-center">
       <video
-        src="/sw-hero-video.m4v"
+        src="https://res.cloudinary.com/dkdfpm2og/video/upload/v1667253619/switch-assets/sw-hero-video_rje65h.mp4"
         muted
         loop
         autoplay

@@ -57,7 +57,7 @@ const videoUrl = isDev ? '/sw-hero-video.m4v' : 'https://res.cloudinary.com/dkdf
     </div>
     <NuxtImg
       src="/stoke-about.svg"
-      class="w-full col-start-1 col-end-2 row-start-3 row-end-4 z-10 mb-[-5px]"
+      class="w-full col-start-1 col-end-2 row-start-3 row-end-4 z-[5] mb-[-5px]"
       alt="Stoke about"
     />
   </section>

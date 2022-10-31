@@ -7,6 +7,6 @@
         <slot name="mobile-navigation" />
       </div>
     </div>
-    <NuxtImg src="/stoke-navbar.svg" class="w-full mt-[-5px]" />
+    <NuxtImg src="/stoke-navbar.svg" alt="Stoke navbar" class="w-full mt-[-5px]" />
   </header>
 </template>

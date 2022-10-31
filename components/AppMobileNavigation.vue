@@ -13,22 +13,34 @@
     <nav class="navigation__nav">
       <ul class="navigation__list">
         <li class="navigation__item">
-          <a href="#" class="navigation__link">about us</a>
+          <NuxtLink to="#" class="navigation__link">
+            about us
+          </NuxtLink>
         </li>
         <li class="navigation__item">
-          <a href="#" class="navigation__link">our services</a>
+          <NuxtLink to="#" class="navigation__link">
+            our services
+          </NuxtLink>
         </li>
         <li class="navigation__item">
-          <a href="#" class="navigation__link">how we work</a>
+          <NuxtLink to="#" class="navigation__link">
+            how we work
+          </NuxtLink>
         </li>
         <li class="navigation__item">
-          <a href="#" class="navigation__link">carrers</a>
+          <NuxtLink to="#" class="navigation__link">
+            carrers
+          </NuxtLink>
         </li>
         <li class="navigation__item">
-          <a href="#" class="navigation__link">blog</a>
+          <NuxtLink to="#" class="navigation__link">
+            blog
+          </NuxtLink>
         </li>
         <li class="navigation__item">
-          <a href="#" class="navigation__link">contact</a>
+          <NuxtLink to="#" class="navigation__link">
+            contact
+          </NuxtLink>
         </li>
       </ul>
     </nav>

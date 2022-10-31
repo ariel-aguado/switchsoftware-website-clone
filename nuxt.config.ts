@@ -8,13 +8,4 @@ export default defineNuxtConfig({
     // 'nuxt-security',
   ],
   css: ['assets/styles/main.css'],
-  vite: {
-    build: {
-      rollupOptions: {
-        external: [
-          '/sw-hero-video.m4v',
-        ],
-      },
-    },
-  },
 })

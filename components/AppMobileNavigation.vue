@@ -53,8 +53,8 @@
     height: 2rem;
     width: 2rem;
     position: fixed;
-    top: 32px;
-    right: 50px;
+    top: 30px;
+    right: 30px;
     z-index: 3000;
     text-align: center;
     cursor: pointer;

@@ -29,7 +29,7 @@
       mt-24 sm:mt-0
       z-0"
     >
-      <h1 class="max-w-sm text-fluid_3xl leading-[5rem] text-white">
+      <h1 class="max-w-sm text-[length:var(--font-size-3xl)] leading-[5rem] text-white">
         Nearshore Custom Application Development
       </h1>
       <p class="text-white mt-3">

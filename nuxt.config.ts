@@ -9,8 +9,10 @@ export default defineNuxtConfig({
     'nuxt-icon',
     // 'nuxt-security',
   ],
-  routeRules: {
-    '/**': isDev ? {} : { cache: { swr: true, headersOnly: true } },
+  nitro: {
+    routeRules: {
+      '/': isDev ? {} : { static: true },
+    },
   },
   css: ['assets/styles/main.css'],
 })

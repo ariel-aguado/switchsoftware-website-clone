@@ -28,10 +28,10 @@ const videoUrl = isDev ? '/sw-hero-video.m4v' : 'https://res.cloudinary.com/dkdf
     <div
       class="
       col-start-1 col-end-2 row-start-1 row-end-4 w-full
-      max-w-6xl mx-auto
+      max-w-2xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto
       px-6
       flex flex-col justify-center
-      mt-24 sm:mt-0
+      mt-24 lg:mt-0
       z-0"
     >
       <h1 class="max-w-sm text-[length:var(--font-size-3xl)] leading-[5rem] text-white">
@@ -57,7 +57,7 @@ const videoUrl = isDev ? '/sw-hero-video.m4v' : 'https://res.cloudinary.com/dkdf
     </div>
     <NuxtImg
       src="/stoke-about.svg"
-      class="w-full col-start-1 col-end-2 row-start-3 row-end-4 z-[5] mb-[-5px]"
+      class="w-full col-start-1 col-end-2 row-start-3 row-end-4 z-[5] mb-[-5%] mt-[-13%]"
       alt="Stoke about"
     />
   </section>

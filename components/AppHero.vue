@@ -40,7 +40,8 @@ const videoUrl = isDev ? '/sw-hero-video.m4v' : 'https://res.cloudinary.com/dkdf
       <p class="text-white mt-3">
         Make The Switch to Collaboration
       </p>
-      <button
+      <NuxtLink
+        to="#"
         class="
         w-min
         whitespace-nowrap
@@ -53,7 +54,7 @@ const videoUrl = isDev ? '/sw-hero-video.m4v' : 'https://res.cloudinary.com/dkdf
         transition-colors"
       >
         What we do
-      </button>
+      </NuxtLink>
     </div>
     <NuxtImg
       src="/stoke-about.svg"

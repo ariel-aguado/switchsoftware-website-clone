@@ -65,7 +65,7 @@
     height: 2rem;
     width: 2rem;
     position: fixed;
-    top: 30px;
+    top: 20px;
     right: 30px;
     z-index: 3000;
     text-align: center;
@@ -73,11 +73,11 @@
   }
 
   &__background {
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
     position: fixed;
-    top: 8px;
-    right: 20px;
+    top: 12px;
+    right: 22px;
     background-color: #ffffff;
     border-radius: 100%;
     z-index: 2000;
@@ -149,14 +149,14 @@
   &__icon {
     position: relative;
     margin-top: 15px;
-    width: 2rem;
+    width: 1.75rem;
     height: 2px;
     background-color: theme('colors.gray.900');
     display: inline-block;
 
     &::before,
     &::after {
-      width: 2rem;
+      width: 1.75rem;
       height: 2px;
       background-color: theme('colors.gray.900');
       display: inline-block;

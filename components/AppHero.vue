@@ -29,7 +29,7 @@ const videoUrl = isDev ? '/sw-hero-video.m4v' : 'https://res.cloudinary.com/dkdf
       class="
       col-start-1 col-end-2 row-start-1 row-end-4 w-full
       max-w-2xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto
-      px-6
+      px-4
       flex flex-col justify-center
       mt-24 lg:mt-0
       z-0"
@@ -43,23 +43,31 @@ const videoUrl = isDev ? '/sw-hero-video.m4v' : 'https://res.cloudinary.com/dkdf
       <NuxtLink
         to="#"
         class="
-        w-min
-        whitespace-nowrap
-        bg-teal-400 hover:bg-teal-500
-        px-10 py-4
+        w-min h-12
+        px-8 mt-6
+        text-gray-900 font-semibold uppercase
         rounded-full
-        text-base text-gray-900 uppercase
-        mt-6
-        cursor-pointer
-        transition-colors"
+        flex items-center justify-center
+        whitespace-nowrap
+        bg-teal-400
+        transition-colors
+        hover:bg-teal-300
+        active:bg-teal-400
+        focus:outline-none
+        focus:ring-2
+        focus:ring-teal-300
+        focus:ring-offset-2
+        focus:ring-offset-teal-900"
       >
         What we do
       </NuxtLink>
     </div>
     <NuxtImg
-      src="/stoke-about.svg"
       class="w-full col-start-1 col-end-2 row-start-3 row-end-4 z-[5] mb-[-5%] mt-[-13%]"
+      src="/stoke-about.svg"
       alt="Stoke about"
+      width="1920"
+      height="268"
     />
   </section>
 </template>

@@ -8,9 +8,11 @@
       </div>
     </div>
     <NuxtImg
+      class="max-w-full h-auto mb-[-10.1%] lg:mb-[-7.1%] lg:mt-[-6px] pointer-events-none"
       src="/stoke-navbar.svg"
       alt="Stoke navbar"
-      class="max-w-full h-auto mb-[-10.1%] lg:mb-[-7.1%] lg:mt-[-6px] pointer-events-none"
+      width="1920"
+      height="84"
     />
   </header>
 </template>

@@ -22,8 +22,8 @@
 
 @font-face {
   font-family: "Merriweather";
-  font-weight: 700;
-  src: url("./../fonts/merriweather-700.woff2") format("woff2");
+  font-weight: 300;
+  src: url("./../fonts/merriweather-300.woff2") format("woff2");
   font-style: normal;
   font-display: swap;
   ascent-override: 98.4%;
@@ -32,13 +32,13 @@
 }
 
 @font-face {
-  font-family: "Roboto";
-  font-weight: 300;
+  font-family: "Merriweather";
+  font-weight: 700;
   src: url("./../fonts/merriweather-700.woff2") format("woff2");
   font-style: normal;
   font-display: swap;
-  ascent-override: 92.7734375%;
-  descent-override: 24.4140625%;
+  ascent-override: 98.4%;
+  descent-override: 27.3%;
   line-gap-override: 0%;
 }
 

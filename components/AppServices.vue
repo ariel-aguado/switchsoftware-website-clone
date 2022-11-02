@@ -8,7 +8,7 @@
     >
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 order-2 lg:order-1">
         <div class="flex flex-col space-y-8">
-          <AppCard>
+          <AppCard class="hover:bg-teal-500 hover:text-surface transition-colors duration-300">
             <template #icon>
               <IconUXUI />
             </template>
@@ -21,7 +21,7 @@
               <p>We help you design interfaces and experiences that seamlessly achieve the needs of your target users.</p>
             </template>
           </AppCard>
-          <AppCard>
+          <AppCard class="hover:bg-teal-500 hover:text-surface transition-colors duration-300">
             <template #icon>
               <IconDevOps />
             </template>
@@ -36,7 +36,7 @@
           </AppCard>
         </div>
         <div class="flex flex-col space-y-8 lg:mt-20">
-          <AppCard>
+          <AppCard class="hover:bg-teal-500 hover:text-surface transition-colors duration-300">
             <template #icon>
               <IconFrontendBackend />
             </template>
@@ -49,7 +49,7 @@
               <p>Modern technologies and dev practices, resulting in an easily maintainable and scalable code base - with performance always a priority.</p>
             </template>
           </AppCard>
-          <AppCard>
+          <AppCard class="hover:bg-teal-500 hover:text-surface transition-colors duration-300">
             <template #icon>
               <IconTesting />
             </template>
@@ -80,7 +80,7 @@
         <NuxtLink
           to="#"
           class="
-          w-min h-12
+          w-full sm:w-min h-12
           px-8 mt-4
           text-sm text-white font-semibold uppercase
           rounded-full

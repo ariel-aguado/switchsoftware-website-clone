@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full bg-surface flex justify-center items-center">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-2xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-16">
+  <section class="w-full bg-surface flex justify-center items-center">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-2xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-24">
       <div>
         <h3 class="text-[length:var(--font-size-lg)] text-gray-800">
           Modern architectures, Agile methodologies, 100% Custom Dev Teams
@@ -14,7 +14,7 @@
             class="
             w-min h-12
             px-8 mr-4 mb-4
-            text-white font-semibold uppercase
+            text-sm text-white font-semibold uppercase
             rounded-full
             flex items-center justify-center
             whitespace-nowrap
@@ -35,7 +35,7 @@
             class="
             w-min h-12
             px-8 mb-4
-            text-white font-semibold uppercase
+            text-sm text-white font-semibold uppercase
             rounded-full
             flex items-center justify-center
             whitespace-nowrap
@@ -53,7 +53,7 @@
           </NuxtLink>
         </div>
       </div>
-      <div class="hidden lg:block mt-[-12rem] z-[5]">
+      <div class="hidden lg:block mt-[-14rem] z-[5]">
         <svg viewBox="0 0 335 325" width="475px">
           <clipPath id="carrers">
             <path fill="#606060" d="M302.9,298.65c57.84-61.52,7.85-221.58-81.28-276.73C132.5-33.23-21.3,75.28,8.56,173.45                        S245.06,360.19,302.9,298.65z" />
@@ -62,5 +62,5 @@
         </svg>
       </div>
     </div>
-  </div>
+  </section>
 </template>

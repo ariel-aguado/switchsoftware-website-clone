@@ -45,7 +45,7 @@ const videoUrl = isDev ? '/sw-hero-video.m4v' : 'https://res.cloudinary.com/dkdf
         class="
         w-min h-12
         px-8 mt-6
-        text-gray-900 font-semibold uppercase
+        text-sm text-gray-900 font-semibold uppercase
         rounded-full
         flex items-center justify-center
         whitespace-nowrap

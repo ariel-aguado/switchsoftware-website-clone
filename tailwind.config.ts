@@ -11,5 +11,9 @@ export default {
         surface: '#f7f7f7',
       },
     },
+    fontFamily: {
+      merriweather: ['Merriweather'],
+      montserrat: ['Montserrat'],
+    },
   },
 }

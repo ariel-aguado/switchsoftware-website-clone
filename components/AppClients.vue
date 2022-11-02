@@ -21,17 +21,17 @@ const logos = ref([
 </script>
 
 <template>
-  <div class="w-full bg-white px-4 sm:px-0">
+  <div class="w-full bg-white">
     <div
       class="
       flex flex-col items-center
       max-w-2xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl
       mx-auto py-24"
     >
-      <h2 class="w-full text-[length:var(--font-size-lg)] text-gray-900 text-left sm:text-center">
+      <h2 class="w-full text-[length:var(--font-size-lg)] text-gray-900 text-left sm:text-center px-4 sm:px-0">
         They made the switch
       </h2>
-      <p class="w-full text-gray-800 text-left sm:text-center mt-2">
+      <p class="w-full text-gray-800 text-left sm:text-center mt-2 px-4 sm:px-0">
         Trusted by many including global brands listed on the NYSE
       </p>
       <div class="flex flex-wrap justify-center items-center mt-10">
@@ -41,9 +41,10 @@ const logos = ref([
           class="
           h-auto
           w-[50%] max-w-[50%]
-          sm:w-[20%] sm:max-w-[20%]
+          sm:w-[33.333333%] sm:max-w-[33.333333%]
+          md:w-[25%] md:max-w-[25%]
           lg:w-[16.666667%] lg:max-w-[16.666667%]
-          px-8 mb-8"
+          px-4 mb-8"
           :src="logo.path"
           :alt="logo.client"
           width="200"

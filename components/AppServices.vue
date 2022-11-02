@@ -1,10 +1,12 @@
 <template>
   <section class="app-service w-full bg-surface">
-    <div class="grid grid-cols-1 lg:grid-cols-2 justify-center gap-8 max-w-2xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-16">
-      <div
-        class="
-        grid grid-cols-1 lg:grid-cols-2 gap-8 order-2 lg:order-1"
-      >
+    <div
+      class="
+      grid grid-cols-1 lg:grid-cols-2 justify-center gap-8
+      max-w-2xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl
+      mx-auto px-4 py-16"
+    >
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 order-2 lg:order-1">
         <div class="flex flex-col space-y-8">
           <AppCard>
             <template #icon>

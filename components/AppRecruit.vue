@@ -4,7 +4,7 @@
       class="
       flex flex-col items-center
       max-w-2xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl
-      mx-auto px-4 pt-16"
+      mx-auto px-4 pt-16 pb-2"
     >
       <h2 class="w-full text-[length:var(--font-size-lg)] text-gray-800 text-left sm:text-center">
         Recruit. Re-Tool.

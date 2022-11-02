@@ -8,12 +8,12 @@
     >
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 order-2 lg:order-1">
         <div class="flex flex-col space-y-8">
-          <AppCard class="hover:bg-teal-500 hover:text-surface transition-colors duration-300">
+          <AppCard class="hover:bg-teal-500 text-gray-900 hover:text-surface transition-colors duration-300">
             <template #icon>
               <IconUXUI />
             </template>
             <template #title>
-              <h3 class="text-2xl">
+              <h3 class="font-normal text-2xl">
                 UI/UX
               </h3>
             </template>
@@ -21,12 +21,12 @@
               <p>We help you design interfaces and experiences that seamlessly achieve the needs of your target users.</p>
             </template>
           </AppCard>
-          <AppCard class="hover:bg-teal-500 hover:text-surface transition-colors duration-300">
+          <AppCard class="hover:bg-teal-500 text-gray-900 hover:text-surface transition-colors duration-300">
             <template #icon>
               <IconDevOps />
             </template>
             <template #title>
-              <h3 class="text-2xl">
+              <h3 class="font-normal text-2xl">
                 DevOps
               </h3>
             </template>
@@ -36,12 +36,12 @@
           </AppCard>
         </div>
         <div class="flex flex-col space-y-8 lg:mt-20">
-          <AppCard class="hover:bg-teal-500 hover:text-surface transition-colors duration-300">
+          <AppCard class="hover:bg-teal-500 text-gray-900 hover:text-surface transition-colors duration-300">
             <template #icon>
               <IconFrontendBackend />
             </template>
             <template #title>
-              <h3 class="text-2xl">
+              <h3 class="font-normal text-2xl">
                 Front-end & Back-end
               </h3>
             </template>
@@ -49,14 +49,14 @@
               <p>Modern technologies and dev practices, resulting in an easily maintainable and scalable code base - with performance always a priority.</p>
             </template>
           </AppCard>
-          <AppCard class="hover:bg-teal-500 hover:text-surface transition-colors duration-300">
+          <AppCard class="hover:bg-teal-500 text-gray-900 hover:text-surface transition-colors duration-300">
             <template #icon>
               <IconTesting />
             </template>
             <template #title>
-              <h4 class="text-2xl">
+              <h3 class="font-normal text-2xl">
                 Testing (QA)
-              </h4>
+              </h3>
             </template>
             <template #description>
               <p>Manual and Automated Testing to diagnose quality problems, and improve reliability of your system on all platforms.</p>

@@ -19,14 +19,15 @@
         <AppCard
           class="
           w-full max-w-full
+          pt-8 pb-12
           lg:w-[33.333333%] lg:max-w-[33.333333%] hover:scale-105 lg:hover:scale-110
           transition-transform duration-200"
         >
           <template #icon>
-            <IconRealTime />
+            <IconRealTime class="text-gray-900" />
           </template>
           <template #title>
-            <h3 class="text-2xl">
+            <h3 class="font-normal text-2xl text-gray-900">
               Real-time, Real feedback
             </h3>
           </template>
@@ -37,14 +38,15 @@
         <AppCard
           class="
           w-full max-w-full
+          pt-8 pb-12
           lg:w-[33.333333%] lg:max-w-[33.333333%] hover:scale-105 lg:hover:scale-110
           transition-transform duration-200"
         >
           <template #icon>
-            <IconFrontendBackend />
+            <IconFrontendBackend class="text-gray-900" />
           </template>
           <template #title>
-            <h3 class="text-2xl">
+            <h3 class="font-normal text-2xl text-gray-900">
               Proven Dev Talent
             </h3>
           </template>
@@ -55,14 +57,15 @@
         <AppCard
           class="
           w-full max-w-full
+          pt-8 pb-12
           lg:w-[33.333333%] lg:max-w-[33.333333%] hover:scale-105 lg:hover:scale-110
           transition-transform duration-200"
         >
           <template #icon>
-            <IconInPersonMeetings />
+            <IconInPersonMeetings class="text-gray-900" />
           </template>
           <template #title>
-            <h3 class="text-2xl">
+            <h3 class="font-normal text-2xl text-gray-900">
               In-person Meetings
             </h3>
           </template>

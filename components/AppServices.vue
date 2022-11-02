@@ -104,7 +104,7 @@
 <style lang="scss" scoped>
 .app-service {
   background-color: #f7f7f7;
-  background-image: url(background_what-we-do.png);
+  background-image: url('/background_what-we-do.png');
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: contain;

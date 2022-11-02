@@ -28,10 +28,10 @@ const logos = ref([
       max-w-2xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl
       mx-auto py-24"
     >
-      <h2 class="w-full text-[length:var(--font-size-lg)] text-gray-800 text-left sm:text-center">
+      <h2 class="w-full text-[length:var(--font-size-lg)] text-gray-900 text-left sm:text-center">
         They made the switch
       </h2>
-      <p class="w-full text-left sm:text-center mt-2">
+      <p class="w-full text-gray-800 text-left sm:text-center mt-2">
         Trusted by many including global brands listed on the NYSE
       </p>
       <div class="flex flex-wrap justify-center items-center mt-10">

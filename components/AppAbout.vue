@@ -12,8 +12,8 @@
           <NuxtLink
             to="#"
             class="
-            w-min h-12
-            px-8 mr-4 mb-4
+            w-full sm:w-min h-12
+            px-8 mr-0 sm:mr-4 mb-4
             text-sm text-white font-semibold uppercase
             rounded-full
             flex items-center justify-center
@@ -33,7 +33,7 @@
           <NuxtLink
             to="#"
             class="
-            w-min h-12
+            w-full sm:w-min h-12
             px-8 mb-4
             text-sm text-white font-semibold uppercase
             rounded-full

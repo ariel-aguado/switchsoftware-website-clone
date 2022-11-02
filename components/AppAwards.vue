@@ -4,10 +4,10 @@
       class="
       flex flex-col items-center
       max-w-2xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl
-      mx-auto px-4 pb-2"
+      mx-auto px-4 pt-14 pb-2"
     >
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <div class="flex justify-center items-center mt-8 lg:mt-0 order-2 lg:order-1">
+        <div class="flex justify-center lg:justify-start items-center mt-8 lg:mt-0 order-2 lg:order-1">
           <NuxtImg
             class="w-[60%] lg:w-3/4 h-auto transition-all"
             src="/clutch_img.png"
@@ -20,7 +20,6 @@
           <div
             class="
             w-full
-            px-4
             flex flex-col justify-center
             mt-10
             z-0"

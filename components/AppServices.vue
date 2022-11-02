@@ -65,7 +65,7 @@
         </div>
       </div>
       <div class="order-1 lg:order-2 lg:mt-28">
-        <h2 class="text-[length:var(--font-size-lg)] text-gray-800">
+        <h2 class="text-[length:var(--font-size-lg)] text-gray-900">
           This is what we do
         </h2>
         <p class="text-gray-800 mt-2">

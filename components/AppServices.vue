@@ -13,9 +13,9 @@
               <IconUXUI />
             </template>
             <template #title>
-              <h4 class="text-2xl">
+              <h3 class="text-2xl">
                 UI/UX
-              </h4>
+              </h3>
             </template>
             <template #description>
               <p>We help you design interfaces and experiences that seamlessly achieve the needs of your target users.</p>
@@ -26,9 +26,9 @@
               <IconDevOps />
             </template>
             <template #title>
-              <h4 class="text-2xl">
+              <h3 class="text-2xl">
                 DevOps
-              </h4>
+              </h3>
             </template>
             <template #description>
               <p>Implementation of modern practices and processes including Continuous Integration / Continuous deployment, and more.</p>
@@ -41,9 +41,9 @@
               <IconFrontendBackend />
             </template>
             <template #title>
-              <h4 class="text-2xl">
+              <h3 class="text-2xl">
                 Front-end & Back-end
-              </h4>
+              </h3>
             </template>
             <template #description>
               <p>Modern technologies and dev practices, resulting in an easily maintainable and scalable code base - with performance always a priority.</p>
@@ -65,9 +65,9 @@
         </div>
       </div>
       <div class="order-1 lg:order-2 lg:mt-28">
-        <h3 class="text-[length:var(--font-size-lg)] text-gray-800">
+        <h2 class="text-[length:var(--font-size-lg)] text-gray-800">
           This is what we do
-        </h3>
+        </h2>
         <p class="text-gray-800 mt-2">
           Access to experienced, specialized software developer talent at lower costs.
           <br>

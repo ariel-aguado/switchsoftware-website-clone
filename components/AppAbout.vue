@@ -2,9 +2,9 @@
   <section class="w-full bg-surface flex justify-center items-center">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-2xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 py-24">
       <div>
-        <h3 class="text-[length:var(--font-size-lg)] text-gray-800">
+        <h2 class="text-[length:var(--font-size-lg)] text-gray-800">
           Modern architectures, Agile methodologies, 100% Custom Dev Teams
-        </h3>
+        </h2>
         <p class="text-gray-800 mt-2">
           Access to experienced, specialized software developers who integrate directly with your team and dev processes, just +1 hour ahead of ET.
         </p>

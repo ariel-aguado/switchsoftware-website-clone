@@ -1,10 +1,10 @@
 <template>
-  <section class="w-full bg-white">
+  <section class="w-full bg-white mb-10">
     <div
       class="
       flex flex-col items-center
       max-w-2xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl
-      mx-auto px-4 pt-14 pb-2"
+      mx-auto px-4 pt-10 sm:pt-20 md:pt-28 lg:pt-36 pb-2"
     >
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div class="flex justify-center lg:justify-start items-center mt-8 lg:mt-0 order-2 lg:order-1">

@@ -16,6 +16,7 @@
     "@tailwindcss/typography": "^0.5.7",
     "@vueuse/motion": "^2.0.0-beta.12",
     "@vueuse/nuxt": "^9.4.0",
+    "aos": "^2.3.4",
     "eslint": "^8.26.0",
     "nuxt": "npm:nuxt3@3.0.0-rc.13-27769897.0f2ef5d",
     "nuxt-icon": "^0.1.7",

@@ -27,7 +27,9 @@ onMounted(() => {
       >
         <AppCard
           data-aos="fade-up"
+          data-aos-offset="100"
           class="
+          aos-init aos-animate
           w-full max-w-full
           pt-8 pb-12
           lg:w-[33.333333%] lg:max-w-[33.333333%] hover:scale-105 lg:hover:scale-110
@@ -47,8 +49,9 @@ onMounted(() => {
         </AppCard>
         <AppCard
           data-aos="fade-up"
-          data-aos-delay="100"
+          data-aos-offset="200"
           class="
+          aos-init aos-animate
           w-full max-w-full
           pt-8 pb-12
           lg:w-[33.333333%] lg:max-w-[33.333333%] hover:scale-105 lg:hover:scale-110
@@ -68,8 +71,9 @@ onMounted(() => {
         </AppCard>
         <AppCard
           data-aos="fade-up"
-          data-aos-delay="200"
+          data-aos-offset="250"
           class="
+          aos-init aos-animate
           w-full max-w-full
           pt-8 pb-12
           lg:w-[33.333333%] lg:max-w-[33.333333%] hover:scale-105 lg:hover:scale-110

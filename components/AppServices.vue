@@ -17,7 +17,7 @@ onMounted(() => {
     >
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 order-2 lg:order-1">
         <div class="flex flex-col space-y-8">
-          <div data-aos="fade-up">
+          <div data-aos="fade-up" data-aos-offset="100" class="aos-init aos-animate">
             <AppCard class="hover:bg-teal-500 text-gray-900 hover:text-surface transition-colors duration-300">
               <template #icon>
                 <IconUXUI />
@@ -32,7 +32,7 @@ onMounted(() => {
               </template>
             </AppCard>
           </div>
-          <div data-aos="fade-up" data-aos-delay="100">
+          <div data-aos="fade-up" data-aos-offset="150" class="aos-init aos-animate">
             <AppCard class="hover:bg-teal-500 text-gray-900 hover:text-surface transition-colors duration-300">
               <template #icon>
                 <IconDevOps />
@@ -49,7 +49,7 @@ onMounted(() => {
           </div>
         </div>
         <div class="flex flex-col space-y-8 lg:mt-20">
-          <div data-aos="fade-up" data-aos-delay="200">
+          <div data-aos="fade-up" data-aos-offset="200" class="aos-init aos-animate">
             <AppCard class="hover:bg-teal-500 text-gray-900 hover:text-surface transition-colors duration-300">
               <template #icon>
                 <IconFrontendBackend />
@@ -64,7 +64,7 @@ onMounted(() => {
               </template>
             </AppCard>
           </div>
-          <div data-aos="fade-up" data-aos-delay="300">
+          <div data-aos="fade-up" data-aos-offset="250" class="aos-init aos-animate">
             <AppCard class="hover:bg-teal-500 text-gray-900 hover:text-surface transition-colors duration-300">
               <template #icon>
                 <IconTesting />

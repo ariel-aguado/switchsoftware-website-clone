@@ -1,3 +1,12 @@
+<script lang="ts" setup>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+onMounted(() => {
+  AOS.init()
+})
+</script>
+
 <template>
   <section class="w-full bg-surface">
     <div
@@ -17,6 +26,7 @@
         lg:flex-row justify-center items-center lg:space-x-8 lg:space-y-0 mt-4"
       >
         <AppCard
+          data-aos="fade-up"
           class="
           w-full max-w-full
           pt-8 pb-12
@@ -36,6 +46,8 @@
           </template>
         </AppCard>
         <AppCard
+          data-aos="fade-up"
+          data-aos-delay="100"
           class="
           w-full max-w-full
           pt-8 pb-12
@@ -55,6 +67,8 @@
           </template>
         </AppCard>
         <AppCard
+          data-aos="fade-up"
+          data-aos-delay="200"
           class="
           w-full max-w-full
           pt-8 pb-12

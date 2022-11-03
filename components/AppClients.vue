@@ -26,7 +26,7 @@ const logos = ref([
       class="
       flex flex-col items-center
       max-w-2xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl
-      mx-auto py-24"
+      mx-auto pt-24"
     >
       <h2 class="w-full text-[length:var(--font-size-lg)] text-gray-900 text-left sm:text-center px-4 sm:px-0">
         They made the switch
